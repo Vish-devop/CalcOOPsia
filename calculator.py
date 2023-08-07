@@ -12,6 +12,19 @@ class Calculator:
         result = num1+num2
         return result
     
+    def substraction(self,num1,num2):
+        result = num1-num2
+        return result
+    
+    def multiplication(self,num1,num2):
+        result = num1*num2
+        return result
+
+    def division(self,num1,num2):
+        result = num1/num2
+        return result
+
+    
 
     
 
