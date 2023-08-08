@@ -1,7 +1,9 @@
-from history import History
 
-class Calculator(History):  #history is acting like a sub-class. 
+
+
+class Calculator():  #history is acting like a sub-class. 
     def __init__ (self):
+        self.memory=None
         super().__init__()   # initiliazing history from the base class.  
    
 
@@ -10,25 +12,17 @@ class Calculator(History):  #history is acting like a sub-class.
         num2=int(input("Enter the second Number: "))
         return num1,num2
 
-    def perform_arithmatic_operation(self,num1,num2,operator):
+    def perform_arithmatic_operation(self,operator,num1,num2):
         if operator=='+':
-                result=num1+num2
-                operation_str=f"{num1}+{num2}"
+                return self.addition(num1,num2)
         elif operator=='-':
-                result=num1-num2
-                operation_str=f"{num1}-{num2}"
+                return self.substraction(num1,num2)
         elif operator=='*':
-                result=num1*num2
-                operation_str=f"{num1}*{num2}"
+                return self.multiplication(num1,num2)
         elif operator=='/':
-                if num2==0: return "Cannot divide by 0"
-                result=num1//num2
-                operation_str=f"{num1}/{num2}"
+                return self.division(num1,num2)
         else: return "Invalid opeator"
 
-        entry=f"{operation_str}={result}"
-        self.add_entry(entry)
-        return result
 
         
     def set_memory(self,value):
