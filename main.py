@@ -7,16 +7,21 @@ def main():
     calc=Calculator()
     arithmatic_calc=ArithmaticOperations()
     memory_calc=History()
-    
+    history_calc=History()
     #making out the choices: 
-    while True: 
-        print("Options: ")
-        print("1. Basic Calculator")
-        print("2. History")
-        print("3. Memory")
-        print("4. Unit Conversion")
-        print("5. Quit")
-
+    while True:
+        options=[ 
+            "["
+        "Options: ",
+        "1. Basic Calculator "
+        "2. History "
+        "3. Memory "
+        "4. Unit Conversion "
+        "5. Quit "
+        "]"
+        ]
+        for option in options:
+            print(option)
         choice=input("Enter the option: ")
 
         if choice=='1':
