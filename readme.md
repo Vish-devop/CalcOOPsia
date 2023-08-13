@@ -1,60 +1,61 @@
+# OOPSCalc - Object-Oriented Python Calculator
 
-# Calculator Project
-
-Welcome to the Calculator project! This project aims to create a user-friendly calculator application that performs basic mathematical operations, tracks calculation history, and provides a memory function for storing values.
+OOPSCalc is a command-line calculator application developed using Python with a focus on Object-Oriented Programming principles. It offers a variety of mathematical operations, memory storage, and history tracking.
 
 ## Features
 
-1. **Basic Mathematical Operations:**
-   - Addition (+)
-   - Subtraction (-)
-   - Multiplication (*)
-   - Division (/)
+1. **Basic Calculator:** Perform simple arithmetic calculations such as addition, subtraction, multiplication, and division.
 
-2. **History Tracking:**
-   - The calculator keeps a record of all performed calculations.
-   - Users can view the history of calculations.
+2. **Scientific Calculator (Beta):** Advanced calculator mode for scientific calculations like trigonometry, exponentiation, and more (under development).
 
-3. **Memory Function:**
-   - Users can store a value in memory for later use.
-   - The stored value can be recalled and used in calculations.
-   - Users can clear the stored memory value.
+3. **Unit Conversion (Beta):** Convert between different units of length, volume, and more (under development).
+
+4. **History Management:** Keep track of your previous calculations, allowing you to review or clear your calculation history.
 
 ## Getting Started
 
-1. Clone or download this repository to your local machine.
-
-2. Make sure you have Python installed on your computer.
-
-3. Open a terminal or command prompt and navigate to the project directory.
-
-4. Run the calculator application:
+1. Clone this repository to your local machine.
+   
+   ```bash
+   git clone https://github.com/your-username/OOPSCalc.git
    ```
-   python calculator.py 
+
+2. Navigate to the project directory.
+   
+   ```bash
+   cd OOPSCalc
    ```
-   or 
-   ```
+
+3. Run the `main.py` script to start the calculator.
+   
+   ```bash
    python main.py
    ```
 
+4. Follow the on-screen instructions to choose the desired calculator mode and perform calculations.
+
 ## How to Use
 
-1. Upon launching the calculator, you'll see a list of available operations.
+Upon running the calculator, you will be presented with a menu where you can choose from the available options:
 
-2. Choose the operation you want to perform by entering the corresponding number.
+1. **Basic Calculator:** Perform standard arithmetic operations (addition, subtraction, multiplication, division).
+   
+2. **Record History:** View and manage your calculation history.
 
-3. Follow the prompts to enter the required numbers.
+3. **Unit Conversion (Beta):** Convert between different units (under development).
 
-4. After completing an operation, the result will be displayed.
+4. **Quit:** Exit the calculator.
 
-5. You can choose to store the result in memory for later use.
+## Contributions
 
-6. You can also view the calculation history to see past operations.
+This project is open to contributions. If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
 
-7. To exit the calculator, choose the "Quit" option.
+## Known Issues
 
-## Contributing
+- The Scientific Calculator and Unit Conversion features are currently in beta and may have limited functionality or bugs.
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to create an issue or a pull request.
+## Contact
+
+If you have any questions or suggestions, feel free to reach out to [Vishal](mailto:vishal.473079@gmail.com).
 
 

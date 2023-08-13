@@ -12,8 +12,11 @@ class History(Calculator):
     
     def view_history(self):
         print("History: ")
-        for calculation in self.history:
-            print(calculation)
+        calculation_line="|". join(self.history)
+        print(calculation_line)
+        # for calculation in self.history:
+        #     print("="*30)
+        #     print(calculation)
 
     def clear_history(self):
         self.history=[]

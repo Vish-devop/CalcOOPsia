@@ -18,14 +18,13 @@ class ArithmaticOperations(Calculator):
         
 
          #it's just a instance of the class : History()
-    def handle_basic_calculator(self): 
+    def handle_basic_calculator(self,history_calc): 
         print("Welcome to Basic Calculator!")
-        history_calc=History()
-
         operator_mapping={'1':'+','2':'-','3':'*','4':'/'}
+
         for key,value in operator_mapping.items():
             print(f"{key}.{value}")
-        # num1,num2=self.get_user_input()
+        
 
         operation_choice=input("Enter the operator choice: ")
 
