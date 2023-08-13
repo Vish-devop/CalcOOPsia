@@ -56,6 +56,6 @@ This project is open to contributions. If you would like to contribute, please f
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to [Vishal](mailto:vishal.473079@gmail.com).
+If you have any questions or suggestions, feel free to reach out to [Vish-devop](mailto:vishal.473079@gmail.com).
 
 
